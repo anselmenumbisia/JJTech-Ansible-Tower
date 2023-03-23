@@ -14,7 +14,7 @@
           image: "{{ image }}"
           instance_type: "{{ instance_type }}"
           region: "{{ region }}"
-          #vpc_subnet_id: "{{ subnet_id }}"
+          vpc_subnet_id: "{{ subnet_id }}"
           #instance_profile_name: "{{ iam_role }}"
           assign_public_ip: yes
           wait: true
